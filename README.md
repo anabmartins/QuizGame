@@ -1,2 +1,2 @@
-# quiz10q
-quiz com 10 questões
+# QuizGame
+Site em formato de Quiz com caixa de opções e pontuação final. 
