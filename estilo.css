@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 body {
-    background-image: url("truck-background.jpg");
+    background-image: url("/home/anab/Documentos/ESCOLA-S/HTML/Quiz10/img/wallpaperflare.com_wallpaper (5).jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
    }
@@ -109,5 +109,5 @@ h2 {
   margin: 0 auto;
   padding: 2rem;
   border-radius: 5rem;
-  background-color: #0f7d6e4f;
+  background-color: #0f7d6e80;
 }
