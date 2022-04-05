@@ -1,20 +1,43 @@
-let select = document.querySelector('#q1')
-var paragrafo = document.querySelector('p')
+console.log(sessionStorage.getItem('fname'));
+
+let q1 = document.querySelector('#q1')
+var pontos = 0
 
 let q2 = document.querySelector('#q2')
-let botao = document.querySelector('#verificar')
-botao.addEventListener('click', verificar)
+let botao = document.querySelector('#enviar')
+botao.addEventListener('click', enviar)
 
-function verificar(){
-    if (q1.value == "opcao 1") {
-        paragrafo.textContent = 'Você selecionou a opção: ' + q1
-    } else {
-        //faz o cálculo
+function enviar(){
+    if (q1.value == "opção 1") {
+        pontos++
     }
-
-    if (q2.value == "opcao 1") {
-        //faz o cálculo
-    } else {
-        //faz o cálculo
+    if (q2.value == "opção 2") {
+       pontos++
+    }    
+    if (q3.value == "opção 3") {
+        pontos++
     }
+    if (q4.value == "opção 2") {
+        pontos++
+    }
+    if (q5.value == "opção 2") {
+        pontos++
+    }
+    if (q6.value == "opção 2") {
+        pontos++
+    }
+    if (q7.value == "opção 1") {
+        pontos++
+    }
+    if (q8.value == "opção 2") {
+        pontos++
+    }
+    if (q9.value == "opção 3") {
+        pontos++
+    }
+    if (q10.value == "opção 2") {
+        pontos++
+    }
+    console.log(pontos);
+    pontos=0
 }
