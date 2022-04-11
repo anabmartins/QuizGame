@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 body {
-    background-image: url("./img/vasco-escudo.jpg");
+    background-image: url("./img/escudo-do-vasco.jpg");
     background-repeat: no-repeat;
     filter: blur(50%);
+    background-size: 100%;
    }
    
 :root {
@@ -26,7 +27,7 @@ h1 {
 
 h2 {
     font-size: 3.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     color: #ffff;
 }
 
@@ -116,4 +117,5 @@ h2 {
     font-size: 20pt;
     width: 30rem;
     height: 3.5rem;
+    margin-bottom: 20px;
 }
