@@ -1,9 +1,16 @@
 console.log(sessionStorage.getItem('fname'));
-
-let q1 = document.querySelector('#q1')
 var pontos = 0
-
+let q1 = document.querySelector('#q1')
 let q2 = document.querySelector('#q2')
+let q3 = document.querySelector('#q3')
+let q4 = document.querySelector('#q4')
+let q5 = document.querySelector('#q5')
+let q6 = document.querySelector('#q6')
+let q7 = document.querySelector('#q7')
+let q8 = document.querySelector('#q8')
+let q9 = document.querySelector('#q9')
+let q10 = document.querySelector('#q10')
+
 let botao = document.querySelector('#enviar')
 botao.addEventListener('click', enviar)
 
