@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 body {
-    background-image: url("./img/escudo-do-vasco.jpg");
-    background-repeat: no-repeat;
     filter: blur(50%);
     background-size: 100%;
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: #0c0c0c;
     background-size: cover;
    }
    
@@ -45,7 +43,6 @@ h2 {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
-    border: #cccccc7c;
 }
 
 .flex-column {
@@ -95,27 +92,11 @@ h2 {
     transform: none;
 }
 
-#highscore-btn {
-    background: #cdd56e 100%;
-}
-
-#highscore-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 #cdd56e;
-}
-
-.fa-crown {
-    font-size: 2.5rem;
-    margin-left: 1rem;
-}
-
 .flex-column, .flex-center {
-  border-width: 10px;
-  border-style: solid;
   border-color: #006b5e;
   margin: 0 auto;
   padding: 2rem;
   border-radius: 5rem;
-  background-color: #0f7d6e80;
 }
 
 #fname {
