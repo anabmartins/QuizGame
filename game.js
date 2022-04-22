@@ -45,6 +45,6 @@ function enviar(){
     if (q10.value == "opção 2") {
         pontos++
     }
-    console.log(pontos);
+    pontuacao.textContent = String(pontos);
     pontos=0
 }
