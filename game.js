@@ -1,4 +1,3 @@
-console.log(sessionStorage.getItem('fname'));
 var pontos = 0
 let q1 = document.querySelector('#q1')
 let q2 = document.querySelector('#q2')
