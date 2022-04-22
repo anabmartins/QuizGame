@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     font-size: 3.2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     color: #ffff;
 }
 
@@ -96,12 +96,14 @@ h2 {
 
 #fname {
     font-size: 20pt;
+    padding: 2rem 0;
     width: 30rem;
-    height: 3.5rem;
+    height: 4.4rem;
     margin-bottom: 20px;
     background-color: #ffff;
     padding: 12px 20px;
-    
+    margin-bottom: 3rem;
+
 }
 
 
