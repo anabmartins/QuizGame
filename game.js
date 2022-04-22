@@ -1,3 +1,5 @@
+let fname = prompt("Qual seu nome?");
+
 var pontos = 0
 let q1 = document.querySelector('#q1')
 let q2 = document.querySelector('#q2')
@@ -44,6 +46,7 @@ function enviar(){
     if (q10.value == "opção 2") {
         pontos++
     }
-    pontuacao.textContent = String(pontos);
+    pontuacao.textContent = String(fname+", você tirou "+pontos+" pontos!");
+
     pontos=0
 }
