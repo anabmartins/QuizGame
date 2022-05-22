@@ -13,7 +13,6 @@ let q9 = document.querySelector('#q9')
 let q10 = document.querySelector('#q10')
 
 let botao = document.querySelector('#enviar')
-botao.addEventListener('click', enviar)
 
 function enviar(){
     if (q1.value == "opção 1") {
